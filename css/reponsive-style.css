@@ -15,6 +15,10 @@
     }
 
     /* 3 Banner */
+    .banner_wrapper .banner-title {
+        font-size: 50px;
+
+    }
 
 
 }
@@ -57,7 +61,31 @@
 
 
     /* 3 Banner */
+    .banner_wrapper .banner-title{
+        font-size: 36px;
+    }
 
+    /* 5 About */
+}
 
+@media (max-width:767px){
     /* 3 Banner */
+    .banner_wrapper{
+        padding: 100px 0 100px;
+    }
+    .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .banner_wrapper .learn-more-btn-section{
+        justify-content: center;
+    }
+
+
+    /* 7 Pricing */     
+
+
+    /* 10 FAQs */
+
+
+    /* 11 Footer */
 }
