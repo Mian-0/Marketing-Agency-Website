@@ -106,8 +106,8 @@ body{
     color: var(--text-dark-gray);
     line-height: 1;
 }
-.header_wrapper.nav-item.nav-link:active {
-    color: var(--text-dark-green);
+.header_wrapper .nav-item .active {
+    color: var(--text-dark-green) !important;
 }
 .header-scrolled {
     position: fixed;
@@ -200,4 +200,29 @@ body{
     100% {
         transform: translateY(0px);
     }
+}
+/* 4 Client */
+.clients{
+    padding: 80px 0 50px;
+    background:var(--bg-light-2);
+}
+.clients h2{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.25;
+    margin-bottom: 40px;
+    color: var(--text-light-2 );
+}
+.client-slider-section .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.client-slider-section img {
+    width: auto !important;
+    height: 50px;
+    object-fit: cover;
 }
