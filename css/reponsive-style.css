@@ -90,6 +90,9 @@
 
 
     /* 7 Pricing */     
+    .free_trial .free_title{
+        font-size: 24px;
+    }
 
 
     /* 10 FAQs */
