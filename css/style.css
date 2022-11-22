@@ -522,11 +522,11 @@ body{
     margin-bottom: 0;
     color: var(--text-black);
 }
-.free_title .learn-more-btn {
+.free_trial .learn-more-btn {
     background: var(--bg-black);
     border-color: var(--bg-black);
 }
-.free_title .learn-more-btn .fa {
+.free_trial .learn-more-btn i {
     font-size: 22px;
     margin-right: 5px;
     vertical-align: bottom;
